@@ -1,0 +1,38 @@
+
+.container {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    background-color: rgba(74, 74, 143, 0.378);
+    
+}
+
+.logo {
+    width: 60px;
+    align-items: center;
+    vertical-align: middle;
+    padding:10px;
+
+    border-radius: 50%;
+   
+}
+
+.cont {
+    display: flex; /* Use flex display to place items in the same row */
+    justify-content: space-between; /* Equal spacing between items */
+    align-items: center;/* Center items vertically */
+    padding:10px;
+    
+}
+body{
+    background-color: black;
+}
+h1,h2,h3,h4,a,p,ul{
+    color: white;
+}
+.work{
+    text-align: center;
+}
+.resume{
+    color: white;
+    text-decoration: none; 
+}

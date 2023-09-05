@@ -1,0 +1,113 @@
+.container {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    background-color: rgba(74, 74, 143, 0.378);
+    
+}
+
+.logo {
+    width: 60px;
+    align-items: center;
+    vertical-align: middle;
+    padding:10px;
+
+    border-radius: 50%;
+   
+}
+
+.cont {
+    display: flex; /* Use flex display to place items in the same row */
+    justify-content: space-between; /* Equal spacing between items */
+    align-items: center;/* Center items vertically */
+    padding:10px;
+    
+}
+.second{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+padding-top: 50px;}
+h1{
+    font-family:cursive;
+    font-style: italic;
+    color: white;
+}
+h3,h4,ul{
+    color: white;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-color: black;
+    
+}
+.imagescategory{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 3fr 3fr;
+    justify-items: center;
+    justify-content:center;
+    padding:50px 100px 100px 100px;
+    row-gap: 0px;
+}
+
+.image{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+.pp {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    
+}
+.ab{
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        margin-left: 400px;
+        margin-right: 400px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.bottom{
+    text-align: center;
+    background-color: rgba(74, 74, 143, 0.378);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.foot{
+    color: white;
+    padding:30px;
+    text-decoration: none; 
+}
+.ab{
+    padding-bottom: 125px;
+}
+.hobby{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 3fr 3fr;
+    justify-items: center;
+    justify-content:center;
+    padding:50px 100px 100px 100px;
+    row-gap: 10px;
+}
+.skill{
+    padding-top: 50px;
+}
+.resume{
+    color: white;
+    text-decoration: none; 
+}
+
+
+
